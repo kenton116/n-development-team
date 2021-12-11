@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Nゴルフ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./img/">
+</head>
+<body>
+  <header>
+    <h1>Nゴルフ<button class="billing" id="kakin">課金</button></h1>
+  </header>
+  <main>
+    <canvas></canvas>
+    <!-- ボールを動かすからcanvasタグが必要なのかな？ -->
+
+  </main>
+  <footer>
+    <small>
+      <a href="https://github.com/kenton116/n-development-team/">GitHub</a>
+    </small>
+    <br>
+    <small>Copyright &copy; N予備校受講者開発チーム 2021</small>
+  </footer>
+  <div id="kakin-msg">
+    <p><span style="color: #f00;">10000円</span>課金すると、<br>ゴール穴をより大きくします</p>
+    <button id="buy">購入</button>
+  </div>
+  <script src="./game1.js"></script>
+</body>
+</html>
